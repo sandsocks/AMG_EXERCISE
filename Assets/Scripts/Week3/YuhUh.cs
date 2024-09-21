@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using static UnityEngine.GraphicsBuffer;
 
-public class NuhUh : MonoBehaviour
+public class YuhUh : MonoBehaviour
 {
     
     [SerializeField] public float epsilon, infinity, negativeInfinity, PI, abs, ceil, ceilToInt, clamp, clamp01, closestPowerOfTwo, exp, floatToHalf, floor, floorToInt, gammaToLinearSpace,
@@ -86,7 +86,7 @@ public class NuhUh : MonoBehaviour
         lerpUnclamped = Mathf.LerpUnclamped(0.5f, 1.0f, -0.25f);
 
         //Mathf.LinearToGammaSpace
-        lineartoGammaSpace = Mathf.LinearToGammaSpace(2000);
+        linearToGammaSpace = Mathf.LinearToGammaSpace(2000);
 
         //Mathf.Log
         log = Mathf.Log(6, 2);
